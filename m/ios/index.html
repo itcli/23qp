@@ -1,10 +1,13 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
+    <meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.6.0">
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=3, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-title" content="标题">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>Welcome</title>
     <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/common.css">
@@ -294,7 +297,20 @@
     <script type="text/javascript">
 
 
-
+    // var code = Util.getQueryString('code') || '';
+   /* var resize = 'orientationchange' in window ? 'orientationchange' : 'resize'
+    var resizeFontSize = function () {
+    var width = document.documentElement.clientWidth
+    document.documentElement.style.fontSize = 100 * (width / 375) + 'px'
+    }
+    window.addEventListener(resize, resizeFontSize, false)
+    if (document.createEvent) {
+    var event = document.createEvent('HTMLEvents')
+    event.initEvent('resize', true, true)
+    window.dispatchEvent(event)
+    } else if (document.createEventObject) {
+    window.fireEvent('onresize')
+    }*/
 
     var mySwiper = new Swiper('.app_detail_banner', {
     slidesPerView: 1.5,
@@ -316,7 +332,19 @@
     centerInsufficientSlides: true,
 
     })
+/*
+    var $fixedEl = document.querySelector('.app_content_fix')
 
+    document.addEventListener('scroll', function () {
+    var app_iconH = document.querySelector('.app_content').offsetHeight;
+    var bannerH = document.querySelector('.top_banner').offsetHeight;
+    var _scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    if ((app_iconH + bannerH) - _scrollTop < 40) {
+    $fixedEl.style.display = 'flex'
+    } else {
+    $fixedEl.style.display = 'none'
+    }
+    })*/
 
     function downloadApp(type) {
         openInstall.wakeupOrInstall()
