@@ -1,0 +1,248 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 16px !important;
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.content .app_content {
+  padding: 4.26vw;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 6.46vw;
+}
+
+.content .app_content .app_icon {
+  width: 20vw;
+  /* height: 1.08rem; */
+  /* background-color: #eee; */
+  float: left;
+}
+
+.content .app_content .app_text_content {
+  float: left;
+  margin-left: 5.06vw;
+  position: relative;
+  /*height: 1.08rem;*/
+  flex: 1;
+}
+
+.content .app_content .app_text_content .app_name {
+  font-size: 5vw;
+  font-family: PingFang SC;
+  font-weight: bold;
+  margin-bottom: 2.5vw;
+}
+
+.content .app_content .app_text_content .app_des {
+  font-size: 12px;
+  color: #85858B;
+  height: 16px;
+  vertical-align: middle;
+  line-height: 16px;
+  margin-bottom: 1vw;
+}
+
+.items {
+  width: 55vw;
+  margin: 0 auto 4vw;
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items span {
+  color: #5B5B5B;
+  padding-bottom: 2vw;
+}
+
+.items .active {
+  color: #00B2FF;
+  border-bottom: 2px solid #00B2FF;
+}
+
+.app_detail_banner {
+  margin-bottom: 3vw;
+}
+
+.main {
+  width: 91.2vw;
+  margin: 0 auto;
+  color: #5B5B5B;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.title {
+  color: #111111;
+  font-size: 17px;
+  font-family: PingFang SC;
+  font-weight: bold;
+  margin: 8vw auto 4vw;
+}
+.rate {
+  overflow: hidden;
+}
+.right div {
+  margin-bottom: 3vw;
+  overflow: hidden;
+}
+
+.right div span {
+  display: block;
+  float: left;
+  height: 3.2vw;
+  line-height: 3.2vw;
+  position: relative;
+}
+
+.right div span:nth-child(1) {
+  width: 16.8vw;
+  /*text-align: right;*/
+}
+
+.right div span:nth-child(1) span {
+  float: right;
+  width: 16.8vw;
+  background-image: url(../img/star5.png);
+  background-size: 100% 100%;
+}
+
+.right div:nth-child(2) span:nth-child(1) span {
+  width: 13.33vw;
+  background-image: url(../img/star4.png);
+  background-size: 100% 100%;
+}
+
+.right div:nth-child(3) span:nth-child(1) span {
+  width: 10.13vw;
+  background-image: url(../img/star3.png);
+  background-size: 100% 100%;
+}
+
+.right div:nth-child(4) span:nth-child(1) span {
+  width: 6.66vw;
+  background-image: url(../img/star2.png);
+  background-size: 100% 100%;
+}
+
+.right div:nth-child(5) span:nth-child(1) span {
+  width: 3.33vw;
+  background-image: url(../img/star1.png);
+  background-size: 100% 100%;
+}
+
+.right div span:nth-child(2) {
+  color: #5B5B5B;
+  width: 5vw;
+  padding-left: 1vw;
+  text-align: left;
+}
+
+.right div span:nth-child(3) {
+  width: 41vw;
+  height: 3px;
+  line-height: 3px;
+  margin-top: 5px;
+  background: rgba(242, 242, 242, 1);
+  border-radius: 2px;
+}
+
+.right div span:nth-child(3) span {
+  height: 3px;
+  line-height: 3px;
+  background: rgba(121, 121, 121, 1);
+  border: 0px solid rgba(102, 102, 102, 1);
+  border-radius: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.comment {
+  display: flex;
+  margin-bottom: 8.5vw;
+}
+.comment:last-child {
+  margin-bottom: 15vw;
+}
+.comment .avatar {
+  float: left;
+  width: 10.93vw;
+  height: 10.93vw;
+  line-height: 10.93vw;
+  margin-right: 4.5vw;
+  background-size: 100% 100%;
+}
+.comment .content {
+  flex: 1;
+  float: left;
+  font-family:PingFang SC;
+}
+.comment .content .top {
+  margin-bottom: 4.5vw;
+}
+.comment .content .top .name {
+  font-weight:bold;
+  color:rgba(12,12,12,1);
+  margin-bottom: 1.5vw;
+}
+.comment .content .top .message {
+  color: #434343;
+  display: flex;
+  justify-content: space-between;
+}
+.comment .content .top .message .mobile {
+  font-size: 13px;
+}
+.comment .content .top .message .time {
+  font-size: 11px;
+}
+.comment .content .bottom .txt{
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 5vw;
+}
+.comment .content .bottom .tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment .content .bottom .tool .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment .content .bottom .tool .left img {
+  width: 16.53vw;
+}
+.comment .content .bottom .tool .left span {
+  font-size: 12px;
+}
+.comment .content .bottom .tool .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment .content .bottom .tool .right img {
+  width: 3.73vw;
+  margin-right: 5px;
+}
+
+.comment .content .bottom .tool .right span {
+  font-size: 12px;
+}
+.comment .content .bottom .tool .right span:nth-child(2) {
+  margin-right: 4vw;
+}
